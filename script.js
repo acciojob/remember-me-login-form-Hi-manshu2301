@@ -32,7 +32,7 @@ submitBtn.addEventListener("click",function(e){
 existing.addEventListener("click",funntion(){
 	const savedUser = loacalStorage.getItem("username");
 	alert(`Loggen in as ${savedUser}`);
-})
+});
 
 
 
