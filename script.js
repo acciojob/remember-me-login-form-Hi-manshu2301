@@ -29,9 +29,9 @@ submitBtn.addEventListener("click",function(e){
 	}
 	
 });
-existing.addEventListener("click",funntion(){
-	const savedUser = loacalStorage.getItem("username");
-	alert(`Loggen in as ${savedUser}`);
+existing.addEventListener("click",function(){
+	const savedUser = localStorage.getItem("username");
+	alert(`Logged in as ${savedUser}`);
 });
 
 
